@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="querystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+
+                <h1>Login</h1>
+                <p>Seja bem vindo(a). Faça login.</p>
+                <form action="login" method="post">
+                    <div class="campo">
+                        <label for="ilogin"><span class="material-symbols-outlined">
+                            person
+                        </span></label>
+                        <input type="email" name="login" id="ilogin" minlength="4" maxlength="20" placeholder="Digite seu nome de usuário" required>
+
+                    </div>
+                    <div class="campo">
+                        <label for="isenha"><span class="material-symbols-outlined">
+                            key
+                        </span></label>
+                        <input type="text" name="senha" id="isenha" minlength="8" maxlength="20" placeholder="Digite sua senha" required>
+
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="" class="botao">Esqueci a senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

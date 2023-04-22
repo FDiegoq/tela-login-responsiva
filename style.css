@@ -1,0 +1,101 @@
+/*
+verde:#49a09d
+lilás:#5f2c82
+*/
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#5f2c82;
+    width:100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    width:100vw;
+    height: 100vh;
+}
+section#login{
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: antiquewhite;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.476);
+    transition: width 1s, height 1s;
+}
+section#login>div#imagem{
+    display: block;
+    background-color: #5f2c82;
+    background-image: url(imagens/pexels-anni-roenkae-2983141.jpg);
+    height: 200px;
+}
+section#login>div#formulario{
+    display: block;
+    padding: 10px;
+}
+div#formulario>h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario>p{
+    margin-bottom: 10px;
+}
+form>div.campo{
+
+    display: block;
+    height: 40px;
+    width: 100%;
+    width: calc(100%-55px);
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+div.campo>input{
+    background-color: #3dd1ccd8;
+    font-size: 1em;
+    width: calc(100%-44px);
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+form>input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#49a09d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+form>input[type=submit]:hover{
+    background-color: #2c6463;
+    cursor: pointer;
+}
+form>a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#49a09d;
+    color: #ffffff;
+    border: none;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+form>a.botao:hover{
+    background-color: #42c4c0;
+    color: #357371;
+    cursor: pointer;
+}
